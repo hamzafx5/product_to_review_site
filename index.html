@@ -1,12 +1,562 @@
 <!DOCTYPE html>
 <html lang="en">
+    <div id="in-page-channel-node-id" data-channel-name="in_page_channel_3oZrt1"></div>
     <head>
-        <meta charset="UTF-8" />
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="./assets/css/style.css" rel="stylesheet" />
+        <title>Apply in the program</title>
     </head>
     <body>
-        Test site product to review
+        <div class="wrap">
+            <div class="content">
+                <header class="header">
+                    <div class="headcont container">
+                        <img src="./assets/toplogo.png" alt="Logo" style="width: 150px" />
+                    </div>
+                </header>
+                <main class="main">
+                    <div class="first">
+                        <div class="frcontainer container">
+                            <div class="left-first">
+                                <h1 class="left-first-title">Get up to $750 to shop at Temu</h1>
+                            </div>
+                            <div class="first__right">
+                                <div style="margin: 0 20px">
+                                    <ul>
+                                        <li class="frlistitem">Answer the asks below.</li>
+                                        <li class="frlistitem">
+                                            Fill in the registration form and follow the
+                                            instructions.
+                                        </li>
+                                        <li class="frlistitem">Get $750 to shop at Temu!*</li>
+                                    </ul>
+                                </div>
+                                <div class="progress__container">
+                                    <progress id="progress_bar" value="0" max="100"></progress>
+                                    <div class="steps">
+                                        <div class="step">1</div>
+                                        <div class="step inactive">2</div>
+                                        <div class="step inactive">3</div>
+                                    </div>
+                                </div>
+                                <!-- ask BLOCK -->
+                                <div class="ask__container">
+                                    <!-- FIRST ask -->
+                                    <div class="ask">
+                                        <h1 class="frttitle">
+                                            Would you be interested in earning extra money for
+                                            online shopping?
+                                        </h1>
+                                        <div class="frtbts-block">
+                                            <button class="qbt frtbt frtbt-red">Yes</button>
+
+                                            <button class="qbt frtbt frtbt-white">No</button>
+                                        </div>
+                                    </div>
+                                    <!-- sec ask -->
+                                    <div style="display: none" class="ask">
+                                        <h1 class="frttitle">
+                                            Do you agree to provide an honest review?
+                                        </h1>
+                                        <div class="frtbts-block">
+                                            <button class="qbt frtbt frtbt-red">Yes</button>
+
+                                            <button class="qbt frtbt frtbt-white">No</button>
+                                        </div>
+                                    </div>
+                                    <!-- THIRD ask -->
+                                    <div style="display: none" class="ask">
+                                        <h1 class="frttitle">Do you live in Australia?</h1>
+                                        <div class="frtbts-block">
+                                            <button class="qbt frtbt frtbt-red">Yes</button>
+                                            <button class="qbt frtbt frtbt-red">No</button>
+                                        </div>
+                                    </div>
+
+                                    <div style="display: none" class="sending_results">
+                                        <ul>
+                                            <li>Checking the results...</li>
+                                            <li>Sending anwsers...</li>
+                                            <li>Redirecting...</li>
+                                        </ul>
+                                        <img style="width: 100px" src="./assets/load.gif" />
+                                    </div>
+                                </div>
+                                <!--END ask BLOCK-->
+                            </div>
+
+                            <!-- FORM BLOCK -->
+                            <div class="contform" style="display: none">
+                                <img
+                                    src="./assets/pro.png"
+                                    style="width: 85%; max-width: 600px"
+                                    alt=""
+                                />
+                                <div class="titleform">
+                                    Congratulation, Please complete your delivery details on the
+                                    next page.
+                                </div>
+
+                                <a
+                                    href="https://www.google.com"
+                                    style="margin-top: 0px"
+                                    class="qbt frtbt frtbt-red"
+                                >
+                                    Continue
+                                </a>
+                            </div>
+                            <!-- END FORM BLOCK -->
+                        </div>
+                    </div>
+
+                    <div class="sec">
+                        <div class="commtt2">
+                            <h1 class="commtt2-title" id="reviews">REVIEWS</h1>
+
+                            <div class="commtt2_container">
+                                <!-- commtt BLOCK -->
+                                <!-- 1 -->
+                                <div class="commtt_face" style="padding: 10px">
+                                    <div class="commtt">
+                                        <p
+                                            style="
+                                                margin: 0;
+                                                padding: 0;
+                                                float: left;
+                                                display: block;
+                                                width: 50%;
+                                            "
+                                        >
+                                            <span style="color: #3b5998">More comments</span>
+                                        </p>
+                                        <p
+                                            style="
+                                                margin: 0;
+                                                padding: 0;
+                                                float: right;
+                                                display: block;
+                                                width: 50%;
+                                                color: #a8a7a7;
+                                                text-align: right;
+                                            "
+                                        >
+                                            <span id="comment_count">13</span> of 80
+                                        </p>
+                                        <div style="clear: both"></div>
+                                    </div>
+
+                                    <div class="commtt" id="comment15" style="display: none">
+                                        <div class="profile"><img src="./assets/15.jpg" /></div>
+                                        <div class="comment-content">
+                                            <p class="name">Rose Hunter</p>
+                                            <div class="container-com">
+                                                <div>
+                                                    <p>
+                                                        Easy way to get 750 dollars for clothes
+                                                        🤩&nbsp;I need a fall coat and now I can get
+                                                        it thanks to this offer... Really cool 👍
+                                                    </p>
+                                                    <div class="cstatus">
+                                                        <span class="pname">May</span>
+                                                        <span class="p_var-dia">27</span>,
+                                                        <span class="pyear">2023</span>
+                                                    </div>
+                                                </div>
+                                                <div class="likev1 contlike">
+                                                    <img
+                                                        src="./assets/unlike.svg"
+                                                        class="likev1 icon"
+                                                        width="20px"
+                                                        height="20px"
+                                                    />
+                                                    <span class="tik-count">1</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container-com" style="text-align: left"></div>
+                                    </div>
+                                    <!-- 14 -->
+                                    <div
+                                        class="commtt ask-animation"
+                                        id="comment14"
+                                        style="display: block"
+                                    >
+                                        <div class="profile"><img src="./assets/14.jpg" /></div>
+                                        <div class="comment-content">
+                                            <p class="name">Isla Holland</p>
+                                            <div class="container-com">
+                                                <div>
+                                                    <p>
+                                                        Wow! Such a great opportunity to get some
+                                                        new stuff! Thank you for showing me this!!!
+                                                        I love this brand so much 😍
+                                                    </p>
+                                                    <div class="cstatus">
+                                                        <span class="pname">May</span>
+                                                        <span class="p_var-dia">27</span>,
+                                                        <span class="pyear">2023</span>
+                                                    </div>
+                                                </div>
+                                                <div class="likev1 contlike">
+                                                    <img
+                                                        src="./assets/unlike.svg"
+                                                        class="likev1 icon"
+                                                        width="20px"
+                                                        height="20px"
+                                                    />
+                                                    <span class="tik-count">2</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container-com" style="text-align: left"></div>
+                                    </div>
+                                    <!-- 13 -->
+                                    <div
+                                        class="commtt ask-animation"
+                                        id="comment13"
+                                        style="display: block"
+                                    >
+                                        <div class="profile"><img src="./assets/13.jpg" /></div>
+                                        <div class="comment-content">
+                                            <p class="name">Olivia Stewart</p>
+                                            <div class="container-com">
+                                                <div>
+                                                    <p>
+                                                        Can anyone tell me about this gift program?
+                                                        Looks pretty interesting 🧐
+                                                    </p>
+                                                    <div class="cstatus">
+                                                        <span class="pname">May</span>
+                                                        <span class="p_var-dia">27</span>,
+                                                        <span class="pyear">2023</span>
+                                                    </div>
+                                                </div>
+                                                <div class="likev1 contlike">
+                                                    <img
+                                                        src="./assets/unlike.svg"
+                                                        class="likev1 icon"
+                                                        width="20px"
+                                                        height="20px"
+                                                    />
+                                                    <span class="tik-count">0</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container-com" style="text-align: left"></div>
+                                    </div>
+                                    <!-- 12 -->
+                                    <div
+                                        class="commtt ask-animation"
+                                        id="comment12"
+                                        style="display: block"
+                                    >
+                                        <div class="profile"><img src="./assets/12.jpg" /></div>
+                                        <div class="comment-content">
+                                            <p class="name">Britney Hawkins</p>
+                                            <div class="container-com">
+                                                <div>
+                                                    <p>
+                                                        Hi Camille. Did you receive your gift
+                                                        certificate? How did you get it?
+                                                    </p>
+                                                    <div class="cstatus">
+                                                        <span class="pname">May</span>
+                                                        <span class="p_var-dia">27</span>,
+                                                        <span class="pyear">2023</span>
+                                                    </div>
+                                                </div>
+                                                <div class="likev1 contlike">
+                                                    <img
+                                                        src="./assets/unlike.svg"
+                                                        class="likev1 icon"
+                                                        width="20px"
+                                                        height="20px"
+                                                    />
+                                                    <span class="tik-count">2</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container-com" style="text-align: left"></div>
+                                    </div>
+                                    <div class="commtt" id="comment0" style="display: block">
+                                        <div class="profile"><img src="./assets/6.jpg" /></div>
+                                        <div class="comment-content">
+                                            <p class="name">Camille Guillot</p>
+                                            <div class="container-com">
+                                                <div>
+                                                    <p>
+                                                        This is amazing!! 🥳 I tried it yesterday
+                                                        and actually got my 750 dollars gift card,
+                                                        thank you so much!
+                                                    </p>
+                                                    <div class="cstatus">
+                                                        <span class="pname">May</span>
+                                                        <span class="p_var-dia">27</span>,
+                                                        <span class="pyear">2023</span>
+                                                    </div>
+                                                </div>
+                                                <div class="likev1 contlike">
+                                                    <img
+                                                        src="./assets/unlike.svg"
+                                                        class="likev1 icon"
+                                                        width="20px"
+                                                        height="20px"
+                                                    />
+                                                    <span class="tik-count">1.2k</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container-com" style="text-align: left"></div>
+                                    </div>
+                                    <div class="commtt" id="comment1" style="display: block">
+                                        <div class="profile"><img src="./assets/3.jpg" /></div>
+                                        <div class="comment-content">
+                                            <p class="name">Adam Edwards</p>
+                                            <div class="container-com">
+                                                <div>
+                                                    <p>
+                                                        I just saw an ad and decided to try it out
+                                                        to make a surprise for my girlfriend! Is it
+                                                        for real?
+                                                    </p>
+                                                    <div class="cstatus">
+                                                        <span class="pname">May</span>
+                                                        <span class="p_var-dia">27</span>,
+                                                        <span class="pyear">2023</span>
+                                                    </div>
+                                                </div>
+                                                <div class="likev1 contlike">
+                                                    <img
+                                                        src="./assets/unlike.svg"
+                                                        class="likev1 icon"
+                                                        width="20px"
+                                                        height="20px"
+                                                    />
+                                                    <span class="tik-count">1.6k</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container-com" style="text-align: left"></div>
+                                    </div>
+                                    <div class="commtt" id="comment2" style="display: block">
+                                        <div class="profile"><img src="./assets/2.jpg" /></div>
+                                        <div class="comment-content">
+                                            <p class="name">Jil Lambert</p>
+                                            <div class="container-com">
+                                                <div>
+                                                    <p>
+                                                        Yes, everything is real. I also found out
+                                                        about this rewards program through Facebook,
+                                                        and now I have earned my gift card. Although
+                                                        only for $400, but I am still happy! 😜
+                                                    </p>
+                                                    <div class="cstatus">
+                                                        <span class="pname">May</span>
+                                                        <span class="p_var-dia">27</span>,
+                                                        <span class="pyear">2023</span>
+                                                    </div>
+                                                </div>
+                                                <div class="likev1 contlike">
+                                                    <img
+                                                        src="./assets/unlike.svg"
+                                                        class="likev1 icon"
+                                                        width="20px"
+                                                        height="20px"
+                                                    />
+                                                    <span class="tik-count">1.5k</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container-com" style="text-align: left"></div>
+                                    </div>
+                                    <div class="commtt" id="comment3" style="display: block">
+                                        <div class="profile"><img src="./assets/8.jpg" /></div>
+                                        <div class="comment-content">
+                                            <p class="name">Marla Lopez</p>
+                                            <div class="container-com">
+                                                <div>
+                                                    <p>
+                                                        I spent quite a lot of time on the tasks,
+                                                        but I already got $220, I didn’t put any
+                                                        effort at all...
+                                                    </p>
+                                                    <div class="cstatus">
+                                                        <span class="pname">May</span>
+                                                        <span class="p_var-dia">27</span>,
+                                                        <span class="pyear">2023</span>
+                                                    </div>
+                                                </div>
+                                                <div class="likev1 contlike">
+                                                    <img
+                                                        src="./assets/unlike.svg"
+                                                        class="likev1 icon"
+                                                        width="20px"
+                                                        height="20px"
+                                                    />
+                                                    <span class="tik-count">645</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container-com" style="text-align: left"></div>
+                                    </div>
+                                    <div class="commtt" id="comment4" style="display: block">
+                                        <div class="profile"><img src="./assets/11.jpg" /></div>
+                                        <div class="comment-content">
+                                            <p class="name">Sally Jones</p>
+                                            <div class="container-com">
+                                                <div>
+                                                    <p>
+                                                        I agree with all the commenters! It's pretty
+                                                        realistic to earn free clothes at Temu. It's
+                                                        a great opportunity to buy some fall
+                                                        clothes!
+                                                    </p>
+                                                    <div class="cstatus">
+                                                        <span class="pname">May</span>
+                                                        <span class="p_var-dia">27</span>,
+                                                        <span class="pyear">2023</span>
+                                                    </div>
+                                                </div>
+                                                <div class="likev1 contlike">
+                                                    <img
+                                                        src="./assets/unlike.svg"
+                                                        class="likev1 icon"
+                                                        width="20px"
+                                                        height="20px"
+                                                    />
+                                                    <span class="tik-count">1.1k</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container-com" style="text-align: left"></div>
+                                    </div>
+
+                                    <div class="commtt" id="comment5" style="display: block">
+                                        <div class="profile"><img src="./assets/9.jpg" /></div>
+                                        <div class="comment-content">
+                                            <p class="name">Evan Campbell</p>
+                                            <div class="container-com">
+                                                <div>
+                                                    <p>
+                                                        Take the survey and follow the instructions
+                                                        below! It's very simple...
+                                                    </p>
+                                                    <div class="cstatus">
+                                                        <span class="pname">May</span>
+                                                        <span class="p_var-dia">27</span>,
+                                                        <span class="pyear">2023</span>
+                                                    </div>
+                                                </div>
+                                                <div class="likev1 contlike">
+                                                    <img
+                                                        src="./assets/unlike.svg"
+                                                        class="likev1 icon"
+                                                        width="20px"
+                                                        height="20px"
+                                                    />
+                                                    <span class="tik-count">744</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container-com" style="text-align: left"></div>
+                                    </div>
+                                    <div class="commtt" id="comment6" style="display: block">
+                                        <div class="profile"><img src="./assets/10.jpg" /></div>
+                                        <div class="comment-content">
+                                            <p class="name">Courtney Campbell</p>
+                                            <div class="container-com">
+                                                <div>
+                                                    <p>
+                                                        How do I redeem the gift certificate? I
+                                                        can’t find it on the Temu website. Please
+                                                        help me!
+                                                    </p>
+                                                    <div class="cstatus">
+                                                        <span class="pname">May</span>
+                                                        <span class="p_var-dia">27</span>,
+                                                        <span class="pyear">2023</span>
+                                                    </div>
+                                                </div>
+                                                <div class="likev1 contlike">
+                                                    <img
+                                                        src="./assets/unlike.svg"
+                                                        class="likev1 icon"
+                                                        width="20px"
+                                                        height="20px"
+                                                    />
+                                                    <span class="tik-count">589</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container-com" style="text-align: left"></div>
+                                    </div>
+                                    <div class="commtt" id="comment7" style="display: block">
+                                        <div class="profile"><img src="./assets/1.jpg" /></div>
+                                        <div class="comment-content">
+                                            <p class="name">Camilla Williams</p>
+
+                                            <div class="container-com">
+                                                <div>
+                                                    <p>
+                                                        I did it!!! THNX for this great opportunity!
+                                                    </p>
+                                                    <div class="cstatus" style="margin-left: 0px">
+                                                        <span class="pname">May</span>
+                                                        <span class="p_var-dia">27</span>,
+                                                        <span class="pyear">2023</span>
+                                                    </div>
+                                                </div>
+                                                <div class="likev1 contlike">
+                                                    <img
+                                                        src="./assets/unlike.svg"
+                                                        class="likev1 icon"
+                                                        width="20px"
+                                                        height="20px"
+                                                    />
+                                                    <span class="tik-count">889</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container-com" style="text-align: left"></div>
+                                    </div>
+                                </div>
+                                <p style="font-size: 12px; color: #bcbcbc"></p>
+                            </div>
+                        </div>
+                        <!-- commtt BLOCK -->
+                    </div>
+                </main>
+            </div>
+        </div>
+
+        <footer class="foot">
+            <div class="foot_container container">
+                <div class="footer__left">
+                    <a class="linkfooter" href="termsandconditiones.html">Terms &amp; Conditions</a>
+                    <a class="linkfooter" href="privacypolice.html">Privacy policy</a>
+                    <a class="linkfooter" href="req.pdf">Requirements</a>
+                </div>
+                <p class="footer__right"></p>
+                <p
+                    style="
+                        color: #9b9b9bc2;
+                        text-align: end;
+                        font-style: italic;
+                        font-size: 14px;
+                        margin-top: 5px;
+                    "
+                >
+                    *Once you’ve completed ten deals
+                </p>
+                <span class="footer__right-red">Products to Review</span> © All rights reserved.
+                Temu is not affiliated with this promotion.
+                <p></p>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="./assets/js/main.js"></script>
+        <!-- <script type="text/javascript" src="./assets/p.min.js"></script> -->
     </body>
 </html>
