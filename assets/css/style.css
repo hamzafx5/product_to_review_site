@@ -1144,3 +1144,25 @@ progress[value]::-webkit-progress-value {
 .commtt_face .clr {
     clear: both;
 }
+
+#legal-page {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding-inline: 1rem;
+    line-height: 1.5;
+}
+
+#legal-page p {
+    margin-bottom: 1rem;
+}
+
+#legal-page table {
+    border-collapse: collapse;
+    vertical-align: middle;
+}
+
+#legal-page table th,
+#legal-page table td {
+    border: 1px solid #d3d3d3;
+    padding: 8px 14px;
+}
