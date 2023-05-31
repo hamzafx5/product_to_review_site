@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="./assets/css/form-page.css" rel="stylesheet" />
+        <title>Fashion Reviewer</title>
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="content">
+                <header class="header">
+                    <div class="headcont container">
+                        <img src="./assets/toplogo.png" alt="Logo" style="width: 150px" />
+                    </div>
+                </header>
+                <main class="main">
+                    <div class="wraperstyl">
+                        <div
+                            class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2"
+                            style="padding: 0"
+                        >
+                            <div class="firsttext">
+                                <div class="wrap2" id="quiz">
+                                    <h1>Shipment details</h1>
+                                    <!-- <form action="thanks.php" id="js-form"> -->
+                                    <form id="js-form">
+                                        <div class="name">
+                                            <input
+                                                type="text"
+                                                name="name"
+                                                placeholder="First name"
+                                            />
+                                            <input
+                                                type="text"
+                                                name="surname"
+                                                placeholder="Last name"
+                                            />
+                                            <input
+                                                type="mail"
+                                                name="email"
+                                                placeholder="Your email address"
+                                            />
+                                        </div>
+                                        <div class="dropdown">
+                                            <label for="select-choice">Select your gender:</label>
+                                            <select name="select-choice" id="select-choice">
+                                                <option value="Choice 1">Male</option>
+                                                <option value="Choice 2">Female</option>
+                                            </select>
+                                        </div>
+                                        <div class="name">
+                                            <input
+                                                type="text"
+                                                name="phonenumber"
+                                                placeholder="Your phonenumber"
+                                                style="width: 100%; margin-top: 1em"
+                                            />
+                                        </div>
+                                        <div class="check">
+                                            <input type="checkbox" name="gender" id="checkbox" />
+                                            <label for="checkbox"
+                                                >I accept all the rules of the program.</label
+                                            >
+                                        </div>
+                                        <div class="check">
+                                            <input type="checkbox" name="gender" id="checkbox" />
+                                            <label for="checkbox"
+                                                >I want to subscribe to the newsletter</label
+                                            >
+                                        </div>
+                                        <div class="submit">
+                                            <input type="submit" value="Enter" />
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <div class="footer">
+                                <p
+                                    style="color: #ffffff; font-size: 10px; text-align: center"
+                                    id="dga"
+                                >
+                                    *Purchase paid
+                                    <a target="_blank" href="termsandconditiones.html">required</a>
+                                </p>
+                                <p></p>
+                                <p
+                                    style="color: #ffffff; font-size: 12px; text-align: center"
+                                    id="dga"
+                                >
+                                    All rights reserved. Temu is not affiliated with this promotion.
+                                    |
+                                    <a style="color: white" href="termsandconditiones.html">
+                                        Terms and Conditions </a
+                                    >|<a style="color: white" href="privacypolice.html">
+                                        Privacy Policy
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+        <script>
+            document.querySelector("#js-form").addEventListener("submit", handleFormSubmit);
+
+            function handleFormSubmit(event) {
+                // prevent the from for submitting the data and reloading the page
+                event.preventDefault();
+                let formDataObject = {};
+                Array.from(new FormData(event.target).entries()).forEach(([key, value]) => {
+                    formDataObject[key] = value;
+                });
+
+                console.log(formDataObject);
+                // when you log it you will get an object like this
+                // With what the user input into the form
+                /*
+                {
+                  email: ""
+                  name: ""
+                  phonenumber: ""
+                  select-choice: ""
+                  surname: ""
+                }
+                */
+
+                // when you submit form navigate to the thank you page
+                window.location = "/thank-you.html";
+            }
+        </script>
+    </body>
+</html>
